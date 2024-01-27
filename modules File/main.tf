@@ -7,7 +7,7 @@ module "web-server" {
   asg_db_name = "Lock-file"
   asg_name = "DB-ASG"
   custom_tags = {
-    "owner" = "Pari"
+    "owner" = "owner-name"
     "managed by" = "Terraform"
   }
   enable_autoscaling = false
